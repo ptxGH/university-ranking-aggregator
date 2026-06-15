@@ -1,0 +1,14 @@
+name: uni_rank_env
+channels:
+  - defaults
+dependencies:
+  - python=3.10
+  - pandas=2.0
+  - requests=2.31
+  - beautifulsoup4=4.12
+  - lxml=4.9
+  - openpyxl=3.1
+  - matplotlib=3.7
+  - pip
+  - pip:
+      - python-dotenv
